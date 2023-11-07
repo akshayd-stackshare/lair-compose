@@ -1,4 +1,4 @@
-asasdsadsasdasdasvsdadsasdsas  # Lair Docker-Compose
+avvvasasdsadsasdasdasvsdadsasdsas  # Lair Docker-Compose
 
 This is a dockerized version of the Lair Framework. This version is a follow on from https://github.com/ryhanson/lair-docker and has been designed for a Docker-Compose deployment. There have been a lot a changes to how this compose works from lair-docker. The biggest change is everything is version locked and all docker images are part of WarHorse. You will not need to build images locally this is also what breaks things. What this means is that a year from now this Docker-Compose should still work as we are not useing upstream docker images and relaying on building code. Lastly this image uses Traefik which is an amazing load blancer. This should allow for lets encrypt certs among ALOT of other things.
 
